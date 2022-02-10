@@ -313,7 +313,7 @@
           <img
             src="~/assets/exam-tables.png"
             class="
-              w-96
+              w-full
               origin-center
               transform
               scale-90

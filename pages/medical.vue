@@ -1,6 +1,10 @@
 <template>
   <div>
-      <div class="relative h-32 w-32 ...">
+  
+    <hero />
+    <features-2 />
+    <features-3 />
+        <div class="relative h-32 w-32 ...">
       <div
         class="
           fixed
@@ -19,14 +23,18 @@
           rounded-lg
         "
       >
-        Contact Us
+        Contact Us!
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import Features2 from '~/components/features2.vue'
+import Features3 from '~/components/features3.vue'
+import hero from '~/components/hero.vue'
 export default {
+  components: { hero, Features2, Features3 },
 
 }
 </script>

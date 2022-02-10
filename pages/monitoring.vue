@@ -1,5 +1,6 @@
 <template>
   <div>
+      <hero-2 />
       <div class="relative h-32 w-32 ...">
       <div
         class="
@@ -26,7 +27,9 @@
 </template>
 
 <script>
+import hero2 from '~/components/hero2.vue'
 export default {
+  components: { hero2 },
 
 }
 </script>

@@ -1,5 +1,8 @@
 <template>
   <div>
+    
+    <h-header />
+    <features-1 />
     <div class="relative h-32 w-32 ...">
       <div
         class="
@@ -22,8 +25,6 @@
         Contact Us
       </div>
     </div>
-    <h-header />
-    <features-1 />
   </div>
 </template>
 

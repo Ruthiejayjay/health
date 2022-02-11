@@ -15,7 +15,7 @@
             font-bold
             text-transparent
             bg-gradient-to-r
-            text-7xl
+            text-5xl
             from-gray-500
             via-gray-200
             to-gray-900
@@ -72,19 +72,16 @@
             md:items-start md:translate-x-16
           "
         >
-          <p class="text-2xl font-bold text-yellow-600">New</p>
-          <h2 class="text-5xl font-bold text-white">MacBook Air</h2>
+          <p class="text-2xl font-bold text-purple-500">New</p>
+          <h2 class="text-xl font-bold text-white">IVY Biomedical 3150 Cardiac Trigger Monitoring System</h2>
           <h3 class="text-2xl font-medium text-white">
             Power. It's in the Air.
           </h3>
           <div class="flex flex-col items-center pt-4 space-y-4 md:items-start">
-            <p class="text-center text-white md:text-left">
-              From $999 or <br />$83.25/mo. for 12 mo.**
-            </p>
             <a
               href="#_"
               class="
-                bg-blue-600
+                bg-pink-600
                 text-white
                 mt-8
                 inline-block
@@ -106,7 +103,7 @@
                 mt-5
                 text-lg
                 leading-tight
-                text-center text-blue-600
+                text-center text-pink-600
                 hover:underline
                 sm:mx-0
               "
@@ -172,17 +169,14 @@
             md:items-start md:translate-x-16
           "
         >
-          <p class="text-2xl font-bold text-yellow-600">New</p>
-          <h2 class="text-5xl font-bold text-white">MacBook Pro</h2>
-          <h3 class="text-2xl font-medium text-white">All systems Pro.</h3>
+          <p class="text-2xl font-bold text-purple-500">New</p>
+          <h2 class="text-xl font-bold text-white uppercase">Coronary CT angiography</h2>
+          <h3 class="text-xl font-medium text-white">All systems Pro.</h3>
           <div class="flex flex-col items-center pt-4 space-y-4 md:items-start">
-            <p class="text-center text-white md:text-left">
-              From $1299 or <br />$108.25/mo. for 12 mo.**
-            </p>
             <a
               href="#_"
               class="
-                bg-blue-600
+                bg-pink-600
                 text-white
                 mt-8
                 inline-block
@@ -204,7 +198,7 @@
                 mt-5
                 text-lg
                 leading-tight
-                text-center text-blue-600
+                text-center text-pink-600
                 hover:underline
                 sm:mx-0
               "
@@ -254,17 +248,15 @@
             md:items-start md:translate-x-16
           "
         >
-          <p class="text-2xl font-bold text-yellow-600">New</p>
-          <h2 class="text-5xl font-bold text-white">Mac mini</h2>
-          <h3 class="text-2xl font-medium text-white">New guts. More glory.</h3>
+          <p class="text-2xl font-bold text-purple-600">New</p>
+          <h2 class="text-xl font-bold text-white">IVY Biomedical 3150 Cardiac Trigger Monitoring System</h2>
+          <h3 class="text-xl font-medium text-white">New guts. More glory.</h3>
           <div class="flex flex-col items-center pt-4 space-y-4 md:items-start">
-            <p class="text-center text-white md:text-left">
-              From $699 or <br />$58.25/mo. for 12 mo.**
-            </p>
+            
             <a
               href="#_"
               class="
-                bg-blue-600
+                bg-pink-600
                 text-white
                 mt-8
                 inline-block
@@ -286,7 +278,7 @@
                 mt-5
                 text-lg
                 leading-tight
-                text-center text-blue-600
+                text-center text-pink-600
                 hover:underline
                 sm:mx-0
               "
@@ -311,7 +303,7 @@
         </div>
         <div class="relative z-10 w-full md:w-1/2 lg:w-2/3">
           <img
-            src="~/assets/exam-tables.png"
+            src="~/assets/glider.png"
             class="
               w-full
               origin-center

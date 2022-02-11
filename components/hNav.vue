@@ -76,25 +76,31 @@
             x-on:mouseleave="isOpen = false"
             class="relative py-3"
           >
-            <NuxtLink
+          <NuxtLink
+              to="/"
+              class="py-3 text-white hover:text-gray-100 hover:underline"
+              >Home</NuxtLink
+            >
+           
+          </div>
+           <NuxtLink
               to="/medical"
-              class="py-3 text-gray-300 hover:text-gray-100 hover:underline"
+              class="py-3 text-white hover:text-gray-100 hover:underline"
               >Medical Surgical</NuxtLink
             >
-          </div>
           <NuxtLink
             to="/monitoring"
-            class="py-3 text-gray-300 hover:text-gray-100 hover:underline"
+            class="py-3 text-white hover:text-gray-100 hover:underline"
             >Monitoring</NuxtLink
           >
           <NuxtLink
             to="/ultrasound"
-            class="py-3 text-gray-300 hover:text-gray-100 hover:underline"
+            class="py-3 text-white hover:text-gray-100 hover:underline"
             >Ultrasound</NuxtLink
           >
           <NuxtLink
             to="/oncology"
-            class="py-3 text-gray-300 hover:text-gray-100 hover:underline"
+            class="py-3 text-white hover:text-gray-100 hover:underline"
             >Oncolgy</NuxtLink
           >
         </div>

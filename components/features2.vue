@@ -239,7 +239,7 @@
               border-2 border-pink-500
               hover:bg-pink-500 hover:text-white
             "
-            >All Medical Surgical Suplies</a
+            >All Medical Surgical Equipments</a
           >
         </div>
       </div>

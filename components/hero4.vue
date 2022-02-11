@@ -9,7 +9,7 @@
         from-pink-900
         via-pink-700
         to-pink-400
-        opacity-70
+        opacity-40
       "
     ></div>
 
@@ -29,46 +29,56 @@
           >
             <div class="flex flex-col items-start space-y-8">
               <div class="relative">
-                <h1
+                <h4
                   class="
-                    text-xl
-                    font-bold
+                    text-sm
+                    font-medium
                     leading-tight
+                    text-left
                     text-gray-100
-                    sm:text-3xl
-                    md:text-4xl
+                    sm:text-xl
+                    md:text-2xl
                   "
                 >
-                  Beautiful, Efficient Medical Surgical Equipments
-                </h1>
+                  The Rules Have Changed
+                </h4>
               </div>
-              <p class="text-base text-white">
-                Health Equips Medical Surgical is a premier surgical and medical
-                equipment supplier that provides a combination of new and
-                professionally refurbished equipment to medical professionals
-                around the globe.
-              </p>
+              <h2 class="text-4xl font-bold text-white text-left">See Lastest PM Guidelines.</h2>
               <a
                 href="#_"
                 class="
                   inline-block
-                  px-7
-                  py-3
+                  px-8
+                  py-4
                   text-xl
                   font-medium
                   tracking-wide
-                  text-center text-pink-500
-                  border border-pink-500
+                  text-center text-white
                   transition
                   duration-200
+                  border border-pink-700
                   rounded-lg
-                  hover:bg-gray-100
+                  hover:bg-pink-300
                   ease
+                  uppercase
                 "
-                >Learn More</a
+                >Learn More now</a
               >
             </div>
           </div>
+        </div>
+
+        <div class="relative z-10 w-full max-w-2xl mt-20 lg:mt-0 lg:w-5/12">
+          <div
+            class="
+              flex flex-col
+              items-start
+              justify-start
+              p-10
+              shadow-xl
+              rounded-xl
+            "
+          ></div>
         </div>
       </div>
     </div>
@@ -79,9 +89,8 @@
 export default {};
 </script>
 
-<style scoped>
+<style>
 .h11 {
-  background-image: url("~/assets/doctors3.jpg");
+  background-image: url("~/assets/o.jpg");
 }
-</style>>
-
+</style>
